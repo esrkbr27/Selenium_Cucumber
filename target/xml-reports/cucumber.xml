@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="142.984" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Login with different credentials - Example #1.1" time="75.883">
+<system-out><![CDATA[
+When User opens url "https://beksiteoldalpha.kartega.com/login".............passed
+Given User enters "test.uskudar" and "123123"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with different credentials - Example #1.2" time="66.6">
+<system-out><![CDATA[
+When User opens url "https://beksiteoldalpha.kartega.com/login".............passed
+Given User enters "test.esra" and "12341234"................................passed
+]]></system-out>
+</testcase>
+</testsuite>

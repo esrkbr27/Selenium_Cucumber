@@ -1,0 +1,15 @@
+                         Cucumber Framework İçin İzlenmesi Gereken Adımlar
+
+1.Installion required dependencies
+
+*cucumber-junit
+*cucmber-core
+
+2.İnstallion cucumber plugins for feature directories
+
+*File/Settings/Plugins -->Way to installing
+*Cucumber For Groovy
+*Cucumber For Java
+*Gherkin
+
+Note:İf you don't have these plugins you can't make feature file with cucumber sign
