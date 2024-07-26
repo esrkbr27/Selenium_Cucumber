@@ -9,15 +9,16 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //plugin rapor için eklenir.plugin eklenice target dosyası altında raporlar oluşur.
         //raporu açmak için target dosyası içindeki dosyaya sağ click OpenIn/Explorer/Chrome seçilerek rapor görüntelinir
-        plugin={
+        plugin={ //raporlama için
+                "pretty", //consolda renkli yazdırmak için
                 "html:target/html-reports/cucumber.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-reports/cucumber.xml"
         },
         features = "./src/test/resources/features",
-        glue = "stepdefinitions",
-        tags="@test",
-        dryRun=false
+        glue = {"stepdefinitions", "runners.Hook.java"},
+        tags="@azrlogin",
+        dryRun=false //true olduğunda senaryo adımlarını konsola yazdırır
 
 
 )

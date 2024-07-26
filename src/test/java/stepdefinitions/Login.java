@@ -20,14 +20,14 @@ public class Login {
 
     @When("User opens url {string}")
     public void user_opens_url(String url) {
-        Driver.getDriver().get(url);
-        expectedUrl=Driver.getDriver().getCurrentUrl();
+      Driver.getDriver().get(url);
     }
+
     @When("User enters email as {string}")
-    public void user_enters_email_as(String validuser) {
-        page.username.sendKeys(validuser);
+   public void user_enters_email_as(String validuser) {
+      page.username.sendKeys(validuser);
         ReusableMethods.waitFor(2);
-    }
+  }
     @When("User enters password as {string}")
     public void user_enters_password_as(String validpassword) {
         page.password.sendKeys(validpassword);

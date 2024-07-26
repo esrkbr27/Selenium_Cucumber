@@ -8,7 +8,7 @@
 2.İnstallion cucumber plugins for feature directories
 
 *File/Settings/Plugins -->Way to installing
-*Cucumber For Groovy
+*Cucumber For Groovy (for cucumber sign in the feature class)
 *Cucumber For Java
 *Gherkin
 
