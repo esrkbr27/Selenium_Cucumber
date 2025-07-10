@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="9.235" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Azerlotereya login" name="1" time="8.947">
+<testsuite name="Cucumber" time="9.186" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Happy path" time="9.012">
 <system-out><![CDATA[
-When User azrlsitesine gider................................................passed
-Then User dahil ol butonunu clickler........................................passed
+Given User goes to azrlotereya website......................................passed
+When User click Dahil Ol button.............................................passed
+And User enters valid email.................................................passed
+And User enters valid password..............................................passed
+And User click Dahil Ol button in the modal.................................passed
+Then User verify that user on the mainpage..................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
